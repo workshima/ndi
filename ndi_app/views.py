@@ -86,3 +86,6 @@ def base_view(request):
 
 def contacts_view(request):
     return render(request, 'ndi_app/contacts.html')
+
+
+print("Hello World")
